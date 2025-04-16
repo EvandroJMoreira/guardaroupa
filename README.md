@@ -79,4 +79,4 @@
   <img src="https://github.com/EvandroJMoreira/guardaroupa/blob/main/assets/img/desktopCadastro.jpg?raw=true">
 
   <h2>O Site</h2>
-  <p><a href="https://github.com/EvandroJMoreira/guardaroupa/](https://evandrojmoreira.github.io/guardaroupa/">Clique Aqui</p>
+  <p><a href="https://evandrojmoreira.github.io/guardaroupa/">Clique Aqui</p>
