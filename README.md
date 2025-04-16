@@ -25,7 +25,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><strong> <a href="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white"</strong></td>
+        <td><strong> <a href="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=black"</strong></td>
         <td>Estruturação das páginas com marcação semântica</td>
       </tr>
       <tr>
