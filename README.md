@@ -72,4 +72,11 @@
   <p>O sistema foi desenvolvido com foco educacional e para treinar conceitos de front-end e back-end integrados de forma simples, sem banco de dados.</p>
 
   <h2>Desktop</h2>
-  <img src=>
+  <img src="https://github.com/EvandroJMoreira/guardaroupa/blob/main/assets/img/desktopHome.jpg?raw=true">
+  <br>
+  <img src="https://github.com/EvandroJMoreira/guardaroupa/blob/main/assets/img/desktopPopUp.jpg?raw=true">
+  <br>
+  <img src="https://github.com/EvandroJMoreira/guardaroupa/blob/main/assets/img/desktopCadastro.jpg?raw=true">
+
+  <h2>O Site</h2>
+  <a href="https://github.com/EvandroJMoreira/guardaroupa/">
