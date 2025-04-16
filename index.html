@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="./assets/img/logo.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Escolha de Conjunto de Roupas</title>
+</head>
+
+<body>
+    <video autoplay muted loop id="videoFundo">
+        <source src="./assets/vid/desfile.mp4" type="video/mp4">
+    </video>
+
+    <div id="guardaroupa">
+        <div class="roupa">
+            <img src="./assets/img/logo.png" alt="Logo-guarda-roupa" class="logo-guarda-roupa">
+            <h2>Parte Superior</h2>
+            <select id="parteSuperior" onchange="atualizarImagem('parteSuperior')"></select>
+            <img id="imagemParteSuperior" src="" alt="Parte Superior">
+            <div class="botao-image">
+                <button type="button" onclick="imagemAnterior('parteSuperior')">Anterior</button>
+                <button type="button" onclick="proximaImagem('parteSuperior')">Próxima</button>
+                <button onclick="deletarRoupa('parteSuperior', 0)"><img src="./assets/img/lixeira.png" alt="lixeira"
+                        height="10px"></button>
+            </div>
+
+        </div>
+
+        <div class="roupa">
+            <h2>Parte Inferior</h2>
+            <select id="parteInferior" onchange="atualizarImagem('parteInferior')"></select>
+            <img id="imagemParteInferior" src="" alt="Parte Inferior">
+            <div class="botao-image">
+                <button type="button" onclick="imagemAnterior('parteInferior')">Anterior</button>
+                <button type="button" onclick="proximaImagem('parteInferior')">Próxima</button>
+                <button onclick="deletarRoupa('parteSuperior', 0)"><img src="./assets/img/lixeira.png" alt="lixeira"
+                        height="10px"></button>
+            </div>
+
+        </div>
+
+        <button onclick="mostrarLookDoDia()" class="look-do-dia">Selecionar Look do Dia</button>
+
+        <div id="resultado"></div>
+
+        <!-- Modal Look do Dia -->
+        <div id="modalLook" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="fecharModal()">&times;</span>
+                <h2>Look do Dia</h2>
+                <div id="conteudoLook">
+                    <img id="imgLookSuperior" src="" alt="Parte Superior">
+                    <img id="imgLookInferior" src="" alt="Parte Inferior">
+                </div>
+            </div>
+        </div>
+
+        <div id="resultado"></div>
+    </div>
+    <footer>
+        <button onclick="window.location.href='cadastro.html'">Cadastrar Nova Roupa</button>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

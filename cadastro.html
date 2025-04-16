@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastrar Nova Roupa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <video autoplay muted loop id="videoFundo">
+        <source src="./assets/vid/guarda-roupa.mp4" type="video/mp4">
+    </video>
+    <h1><img src="./assets/img/logo.png" alt="Logo-guarda-roupa" class="logo-guarda-roupa"></h1>
+    <form id="formCadastro">
+        <label>Categoria:</label>
+        <select id="categoria">
+            <option value="parteSuperior">Parte Superior</option>
+            <option value="parteInferior">Parte Inferior</option>
+        </select>
+        <label>Tipo:</label>
+        <input type="text" id="tipo">
+        <label>Imagem:</label>
+        <input type="file" id="imagem">
+        <button type="button" onclick="cadastrarRoupa()">Cadastrar</button>
+    </form>
+    <footer>
+        <button onclick="window.location.href='index.html'">Voltar</button>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
